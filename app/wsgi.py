@@ -10,6 +10,7 @@ import sys
 
 
 import django
+import flask
 django.setup()
 # import django.core.handlers.wsgi
 # application = django.core.handlers.wsgi.WSGIHandler()
@@ -17,3 +18,4 @@ django.setup()
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
+
