@@ -9,6 +9,7 @@ PROJECT_FOLDER = os.path.realpath(os.path.dirname(__file__))
 BASE_DIR = os.path.join(os.path.dirname(__file__), '..')
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 
+WSGIPythonPath = "/users/matthewacalin/librarypython/2.7/lib/python/site-packages"
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -16,6 +17,7 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     TEMPLATE_PATH,
 )
+
 
 INSTALLED_APPS = (
     'django.contrib.contenttypes',
@@ -52,3 +54,20 @@ DJANGO_SETTINGS_MODULE = [
     },
 ]
 
+LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'America/Los_Angeles'
+USE_I18N = True
+USE_L10N = True
+USE_TZ = True
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+ALLOWED_HOSTS = ['*']
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
