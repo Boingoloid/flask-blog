@@ -12,7 +12,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 import json
-from app import app
+
 
 from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_template,
                    request, Response, session, url_for)
