@@ -18,7 +18,7 @@ from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_templa
                    request, Response, session, url_for)
 from flask_pymongo import PyMongo
 import pymongo
-import views
+
 
 from markdown import markdown
 from markdown.extensions.codehilite import CodeHiliteExtension
@@ -31,12 +31,14 @@ from playhouse.sqlite_ext import *
 
 
 app = Flask(__name__)
+import views
+
 
 app.config['MONGO_DBNAME'] = "heroku_6r9wd2wt"
 app.config['MONGO_URL'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
 app.config['MONGODB_URI'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
 app.config.from_object('config')
-mongo = PyMongo(app)
+# mongo = PyMongo(app)
 
 
 from datetime import datetime

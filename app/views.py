@@ -1,6 +1,4 @@
 from app import app
-from app import mongo
-from flask_pymongo import PyMongo
 import pymongo
 
 from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_template,
