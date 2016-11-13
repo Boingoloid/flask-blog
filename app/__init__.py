@@ -17,6 +17,7 @@ from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_templa
                    request, Response, session, url_for)
 from flask_pymongo import PyMongo
 import pymongo
+import views
 
 from markdown import markdown
 from markdown.extensions.codehilite import CodeHiliteExtension
