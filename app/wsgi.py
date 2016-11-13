@@ -6,7 +6,7 @@ import sys
 # as well as any WSGI server configured to use this file.
 
 # sys.executable = '/usr/local/python-2.7.2/bin/python'
-os.environ['DJANGO_SETTINGS_MODULE'] = 'app.settings'
+# os.environ['DJANGO_SETTINGS_MODULE'] = 'app.settings'
 
 
 import django

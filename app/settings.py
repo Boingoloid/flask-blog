@@ -49,6 +49,8 @@ INSTALLED_APPS = (
 
 ROOT_URLCONF = 'app.views'
 
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
+
 DJANGO_SETTINGS_MODULE = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
