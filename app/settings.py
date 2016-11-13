@@ -18,6 +18,7 @@ TEMPLATE_DIRS = (
     TEMPLATE_PATH,
 )
 
+SECRET_KEY = '9q^nt0sc2+hi%ixu*q40%1h5p$)r7+-1kmfc#mxnwp#va*l$0_'
 
 INSTALLED_APPS = (
     'django.contrib.contenttypes',
