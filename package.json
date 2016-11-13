@@ -1,0 +1,22 @@
+I{
+  "name": “flask-blog”,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boingoloid/flask-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boingoloid/pflask-blog/issues"
+  },
+  "homepage": "https://github.com/Boingoloid/flask-blog#readme",
+  "dependencies": {
+    "underscore-contrib": "^0.3.0"
+  }
+}
