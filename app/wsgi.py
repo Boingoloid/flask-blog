@@ -8,5 +8,12 @@ import sys
 # sys.executable = '/usr/local/python-2.7.2/bin/python'
 os.environ['DJANGO_SETTINGS_MODULE'] = 'app.settings'
 
-import django.core.handlers.wsgi
-application = django.core.handlers.wsgi.WSGIHandler()
+
+import django
+django.setup()
+# import django.core.handlers.wsgi
+# application = django.core.handlers.wsgi.WSGIHandler()
+
+
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
