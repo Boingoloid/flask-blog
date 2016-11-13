@@ -12,12 +12,13 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 import json
+from app import app
 
 from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_template,
                    request, Response, session, url_for)
 from flask_pymongo import PyMongo
 import pymongo
-import app.views
+import views
 
 from markdown import markdown
 from markdown.extensions.codehilite import CodeHiliteExtension
