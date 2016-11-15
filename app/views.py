@@ -16,6 +16,10 @@ from playhouse.sqlite_ext import *
 # SITE_WIDTH = 800
 
 
+@app.route('/about')
+def about():
+    return  'about page'
+
 @app.route('/')
 @app.route('/index')
 def index():
