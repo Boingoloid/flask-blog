@@ -24,11 +24,6 @@ def about():
 def contact():
     return render_template("contact.html")
 
-@app.route('/static/mail/contact_me.php', methods=['GET', 'POST'])
-def contact_me():
-    return 'you are contacted'
-# def contacta():
-#     return "hello"
 
 
 @app.route('/send-contact', methods=['GET', 'POST'])
@@ -42,7 +37,7 @@ def send_contact():
     saveReturn = db.contact_form.save(contact_data)
     print saveReturn
 
-    return ('',203)
+    return ('hello',203)
 
 @app.route('/')
 @app.route('/index')
@@ -65,7 +60,6 @@ def index():
     oembed_providers = bootstrap_basic(OEmbedCache())
 
     blog = db.post.find_one()
-    blogContent = blog['content']
 
     def html_content(blog):
         hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
@@ -83,7 +77,7 @@ def index():
 
 
 
-    return render_template("index.html", title='Home', user=user, posts=posts,blogContent=blogContent, blog=blog,
+    return render_template("index.html", title='Home', user=user, posts=posts, blog=blog,
                            blogEnriched=blogEnriched)
 
 

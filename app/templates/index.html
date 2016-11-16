@@ -23,6 +23,15 @@
 
     <!-- Main Content -->
     <div class="container">
+
+        <h1>Hi, {{ user.nickname }}!</h1>
+        {% for post in posts %}
+        <div><p>{{ post.author.nickname }} says: <b>{{ post.body }}</b> {{ post.body }}</p></div>
+        {% endfor %}
+        <div><p>{{ blogContent }} </p></div>
+        <div><p>{{ blog.content }} </p></div>
+        <div><p>{{ blogEnriched }} </p></div>
+
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
