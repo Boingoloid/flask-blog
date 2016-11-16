@@ -19,15 +19,22 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+
+            dataSet = JSON.stringify({
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
-                },
+                }
+            });
+
+            console.log(dataSet);
+
+            $.ajax({url: "/send-contact",
+                type: "POST",
+                data: dataSet,
+                contentType: 'application/json;charset=UTF-8',
                 cache: false,
                 success: function() {
                     // Success message
@@ -38,7 +45,6 @@ $(function() {
                         .append("<strong>Your message has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
-
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },

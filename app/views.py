@@ -18,7 +18,31 @@ from playhouse.sqlite_ext import *
 
 @app.route('/about')
 def about():
-    return  'about page'
+    return 'about page'
+
+@app.route('/contact', methods=['GET'])
+def contact():
+    return render_template("contact.html")
+
+@app.route('/static/mail/contact_me.php', methods=['GET', 'POST'])
+def contact_me():
+    return 'you are contacted'
+# def contacta():
+#     return "hello"
+
+
+@app.route('/send-contact', methods=['GET', 'POST'])
+def send_contact():
+    print "send contact function!"
+    contact_data = request.json['data']
+    print contact_data
+
+    client = pymongo.MongoClient(app.config['MONGODB_URI'])
+    db = client.get_default_database()
+    saveReturn = db.contact_form.save(contact_data)
+    print saveReturn
+
+    return ('',203)
 
 @app.route('/')
 @app.route('/index')
@@ -42,8 +66,6 @@ def index():
 
     blog = db.post.find_one()
     blogContent = blog['content']
-
-
 
     def html_content(blog):
         hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
