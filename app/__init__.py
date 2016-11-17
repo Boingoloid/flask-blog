@@ -24,37 +24,7 @@ app.config['MONGODB_URI'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mla
 app.config.from_object('config')
 # mongo = PyMongo(app)
 
-oembed_providers = bootstrap_basic(OEmbedCache())
 
-@app.route('/add')
-def add():
-    # online_users = list(mongo.db.users.find().count())
-    client = pymongo.MongoClient(app.config['MONGODB_URI'])
-    db = client.get_default_database()
-
-    # result = db.users.insert_one()
-    userscount = db.hello_world.find().count()
-
-    print "print some shit"
-    print(userscount)
-
-#     title = CharField()
-#     slug = CharField(unique=True)
-#     content = TextField()
-#     published = BooleanField(index=True)
-#     timestamp = DateTimeField(default=datetime.datetime.now, index=True)
-
-    result = db.post.insert_one(
-    {
-        "title": "First Post",
-        "content": "The body of the post with image: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")",
-        "published": 1,
-        "timestamp": datetime.utcnow(),
-    }
-    )
-
-    print (result)
-    return 'Added post'
 
 
 # script to add a user

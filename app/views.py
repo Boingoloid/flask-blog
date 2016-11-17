@@ -15,6 +15,7 @@ from playhouse.flask_utils import FlaskDB, get_object_or_404, object_list
 from playhouse.sqlite_ext import *
 # SITE_WIDTH = 800
 
+oembed_providers = bootstrap_basic(OEmbedCache())
 
 @app.route('/about')
 def about():
@@ -23,8 +24,6 @@ def about():
 @app.route('/contact', methods=['GET'])
 def contact():
     return render_template("contact.html")
-
-
 
 @app.route('/send-contact', methods=['GET', 'POST'])
 def send_contact():
@@ -57,7 +56,7 @@ def index():
     blogTitle = "First Post"
     client = pymongo.MongoClient(app.config['MONGODB_URI'])
     db = client.get_default_database()
-    oembed_providers = bootstrap_basic(OEmbedCache())
+
 
     blog = db.post.find_one()
 
@@ -80,7 +79,36 @@ def index():
     return render_template("index.html", title='Home', user=user, posts=posts, blog=blog,
                            blogEnriched=blogEnriched)
 
+import datetime
+@app.route('/add')
+def add():
+    # online_users = list(mongo.db.users.find().count())
+    client = pymongo.MongoClient(app.config['MONGODB_URI'])
+    db = client.get_default_database()
 
+    # result = db.users.insert_one()
+    userscount = db.hello_world.find().count()
+
+    print "print some shit"
+    print(userscount)
+
+#     title = CharField()
+#     slug = CharField(unique=True)
+#     content = TextField()
+#     published = BooleanField(index=True)
+#     timestamp = DateTimeField(default=datetime.datetime.now, index=True)
+
+    result = db.post.insert_one(
+    {
+        "title": "First Post",
+        "content": "The body of the post with image: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")",
+        "published": 1,
+        "timestamp": datetime.utcnow(),
+    }
+    )
+
+    print (result)
+    return 'Added post'
 
 if __name__ == '__main__':
     app.run(debug=True)
