@@ -26,7 +26,6 @@ app.config.from_object('config')
 
 oembed_providers = bootstrap_basic(OEmbedCache())
 
-
 @app.route('/add')
 def add():
     # online_users = list(mongo.db.users.find().count())
