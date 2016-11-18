@@ -1,17 +1,12 @@
 
-import datetime
-
 from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_template,
                    request, Response, session, url_for)
-import pymongo
 from flask import Flask
 from flask_admin import Admin
-import mongoengine as me
 from flask_mongoengine import MongoEngine
-from flask_admin.form import rules
 from flask_admin.contrib.mongoengine import ModelView
 from flask_mongoengine.wtf import model_form
-
+from flask_admin.model.fields import InlineFormField, InlineFieldList
 
 app = Flask(__name__)
 import views
@@ -19,21 +14,44 @@ import views
 app.config['MONGO_DBNAME'] = "heroku_6r9wd2wt"
 app.config['MONGO_URL'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
 app.config['MONGODB_URI'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
-app.config.from_object('config')
-# app.config['MONGODB_SETTINGS'] = {'db': 'heroku_6r9wd2wt',
-# 'host': 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt'
-# }
-# mongo = PyMongo(app)
-#
-# app.config['MONGODB_DB'] = 'heroku_6r9wd2wt'
-# app.config['MONGODB_USERNAME'] = 'part_elf_part_man'
-# app.config['MONGODB_PASSWORD'] = 'all_boingo'
-# app.config['MONGODB_HOST'] = 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt'
-# app.config['MONGODB_PORT'] = 51117
 
-# client = pymongo.MongoClient(app.config['MONGODB_URI'],connect=False)
-# db = client.get_default_database()
+app.config['SECRET_KEY'] = '123456790'
+
+# app.config['MONGODB_SETTINGS'] = {
+#     'db': 'heroku_6r9wd2wt',
+#     'username':'part_elf_part_man',
+#     'password':'all_boingo',
+#     'host':'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt',
+#     'port':51117
+# }
+app.config.from_object('config')
+app.config.from_pyfile('../config.py')
+
 db = MongoEngine(app)
+print 'print the database object'
+print db.Document
+
+# class UserForm(Form):
+#     name = StringField('Name')
+#     email = StringField('Email')
+
+class Post(db.Document):
+    title = db.StringField(required=True)
+    content = db.StringField(required=True)
+
+    def __unicode__(self):
+        return self.title
+
+class PostView(ModelView):
+    can_delete = True  # disable model deletion
+    column_editable_list = ['title', 'content']
+
+admin = Admin(app, MongoEngine)
+admin.add_view(PostView(Post))
+
+    # column_filters = ['title']
+
+# PostView = model_form(post)
 
 # client = pymongo.MongoClient(app.config['MONGODB_URI'])
 # DEFAULT_CONNECTION_NAME = 'default-mongodb-connection'
@@ -51,31 +69,36 @@ db = MongoEngine(app)
 
 # conn = pymongo.Connection()
 
-class post(db.Document):
-    title = db.StringField(required=True)
-    # title = db.StringField(required=True)
-    # content = db.StringField(required=True)
-
-    def __unicode__(self):
-        return self.title
-
-class PostView(ModelView):
-    pass
-    # column_filters = ['title']
-
-# PostView = model_form(post)
-
-
-
 # admin = admin.Admin(app, name='flask-blog-mj', template_mode='bootstrap3')
 from flask_admin.contrib.sqla import ModelView
 
 
 
+
+
+# app.config['MONGODB_SETTINGS'] = {'db': 'heroku_6r9wd2wt',
+# 'host': 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt'
+# }
+# mongo = PyMongo(app)
+#
+# app.config['MONGODB_DB'] = 'heroku_6r9wd2wt'
+# app.config['MONGODB_USERNAME'] = 'part_elf_part_man'
+# app.config['MONGODB_PASSWORD'] = 'all_boingo'
+# app.config['MONGODB_HOST'] = 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt'
+# app.config['MONGODB_PORT'] = 51117
+
+# client = pymongo.MongoClient(app.config['MONGODB_URI'],connect=False)
+# db = client.get_default_database()
+
+
+
+
+
+
+
 # if __name__ == '__main__':
-    # Create admin
-admin = Admin(app, MongoEngine)
-admin.add_view(PostView(post))
+
+
 
 
 # script to add a user
