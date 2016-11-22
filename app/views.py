@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+
 from app import app
 import pymongo
+import codecs
 
 from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_template,
                    request, Response, session, url_for)
@@ -8,6 +11,9 @@ from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_templa
 from markdown import markdown
 from markdown.extensions.codehilite import CodeHiliteExtension
 from markdown.extensions.extra import ExtraExtension
+import markdown2
+from markdown2 import Markdown
+markdowner = Markdown()
 from micawber import bootstrap_basic, parse_html
 from micawber.cache import Cache as OEmbedCache
 from peewee import *
@@ -16,6 +22,14 @@ from playhouse.sqlite_ext import *
 # SITE_WIDTH = 800
 
 oembed_providers = bootstrap_basic(OEmbedCache())
+
+
+# encoding=utf8
+import sys
+reload(sys)
+# sys.setdefaultencoding('utf8')
+
+
 
 @app.route('/about')
 def about():
@@ -53,31 +67,55 @@ def index():
         }
     ]
 
+
+
     blogTitle = "First Post"
     client = pymongo.MongoClient(app.config['MONGODB_URI'])
     db = client.get_default_database()
 
-
     blog = db.post.find_one()
 
-    def html_content(blog):
+    in_file = open("app/static/img/blog-started/text.txt") # open file lorem.txt for reading text
+    # data
+    # in_file = codecs.open("app/static/img/blog-started/text.txt", "r", "utf8") # open file lorem.txt for reading text
+    contents = in_file.read() # read the entire file into a string variable
+    in_file.close() # close the file
+    contents_unicode = contents.decode('utf-8')
+    print "print contents of read method:"
+    print(type(contents)) # print contents
+    # code = unicode(contents)
+    # print (type(code))
+    # contents_unicode = contents.decode('utf-8').strip()
+    # print (type(contents_unicode))
+    # a = contents_unicode
+    # b = a.encode('ascii','ignore')
+    # print (type(blog["content"]))
+
+
+    markdowner = Markdown()
+
+    def html_content(contents):
         hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
         extras = ExtraExtension()
-        markdown_content = markdown(blog['content'], extensions=[hilite, extras])
+        markdown_content = markdown(contents, extensions=[hilite, extras])
         oembed_content = parse_html(
             markdown_content,
             oembed_providers,
-            urlize_all=True,
+            urlize_all=True
             # maxwidth=app.config['SITE_WIDTH']
         )
         return Markup(oembed_content)
 
-    blogEnriched = html_content(blog)
+    word = markdowner.convert(contents)
 
+    import lxml
+    from lxml import html
 
+    # blogEnriched = html_content(contents)
+    # blogEnriched = html_content("*boo!*")
+    blogEnriched = Markup(word)
 
-    return render_template("index.html", title='Home', user=user, posts=posts, blog=blog,
-                           blogEnriched=blogEnriched)
+    return render_template("index.html", title='Home', user=user, posts=posts, blog=blog, blogEnriched=blogEnriched)
 
 import datetime
 @app.route('/add')

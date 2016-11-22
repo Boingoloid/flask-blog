@@ -1,9 +1,8 @@
-
 from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_template,
                    request, Response, session, url_for)
-from flask import Flask
 from flask_admin import Admin
 from flask_mongoengine import MongoEngine
+import pymongo
 from flask_admin.contrib.mongoengine import ModelView
 from flask_mongoengine.wtf import model_form
 from flask_admin.model.fields import InlineFormField, InlineFieldList
@@ -11,11 +10,53 @@ from flask_admin.model.fields import InlineFormField, InlineFieldList
 app = Flask(__name__)
 import views
 
-app.config['MONGO_DBNAME'] = "heroku_6r9wd2wt"
-app.config['MONGO_URL'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
-app.config['MONGODB_URI'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
+# app.config['MONGO_DBNAME'] = "heroku_6r9wd2wt"
+# app.config['MONGODB_URI'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
+
+app.config['MONGO_DBNAME'] = "app"
+app.config['MONGODB_URI'] = 'mongodb://localhost/app'
+
+# app.config['MONGODB_SETTINGS'] = {
+#     'db': 'app',
+#     'host': 'mongodb://localhost/app'
+# }
 
 app.config['SECRET_KEY'] = '123456790'
+
+app.config.from_object('config')
+# app.config.from_pyfile('../config.py')
+
+# app.config['MONGODB_SETTINGS'] = {
+# 'db': 'project1',
+# 'host': 'mongodb://localhost/database_name'
+# }
+
+db = MongoEngine(app)
+print 'print the database object'
+print db
+
+client = pymongo.MongoClient(app.config['MONGODB_URI'])
+db2 = client.get_default_database()
+
+entry = db2.post.find_one()
+print entry
+
+# class post(db.Document):
+#     title = db.StringField(required=True)
+#     content = db.StringField(required=True)
+#
+#     def __unicode__(self):
+#         return self.title
+#
+# # class PostView(ModelView):
+# #     pass
+#
+# admin = Admin(app, MongoEngine)
+# admin.add_view(PostView(post))
+
+# Connect to MongoDB and call the connection "my-app".
+# connect("mongodb://localhost:27017/myDatabase", alias="my-app")
+
 
 # app.config['MONGODB_SETTINGS'] = {
 #     'db': 'heroku_6r9wd2wt',
@@ -24,30 +65,11 @@ app.config['SECRET_KEY'] = '123456790'
 #     'host':'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt',
 #     'port':51117
 # }
-app.config.from_object('config')
-app.config.from_pyfile('../config.py')
 
-db = MongoEngine(app)
-print 'print the database object'
-print db.Document
 
 # class UserForm(Form):
 #     name = StringField('Name')
 #     email = StringField('Email')
-
-class Post(db.Document):
-    title = db.StringField(required=True)
-    content = db.StringField(required=True)
-
-    def __unicode__(self):
-        return self.title
-
-class PostView(ModelView):
-    can_delete = True  # disable model deletion
-    column_editable_list = ['title', 'content']
-
-admin = Admin(app, MongoEngine)
-admin.add_view(PostView(Post))
 
     # column_filters = ['title']
 
