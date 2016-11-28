@@ -1,25 +1,70 @@
-So you’re ready to give marijuana a try.  This article will get you up to speed on what your options are and how to enjoy your experience, anxiety-free.  This is an overview to give you the lay of the land.  I’ve included links to dive down any rabbit holes you would like, but by the end of this article you’ll be ready to enjoy some herbs, with the confidence that you’re doing right.
+So you’re ready to give marijuana a try?
 
-Let’s get started.  First a note on saftey.
+This article will educate you on the basics of marijuana enjoyment. With this knowledge, you’ll be equipped to enjoy marijuana safely and navigate social situations involving cannabis with grace.  Let’s get started!
 
-State of Mind: 
-Enjoying cannabis is partly about putting yourself in a relaxing state of mind.  It is challenging to have a relaxing experience if you’re nervous about how a drug is going to impact your body.  So let’s address the question of safety right off the bat.
+<h2>Is Marijuana Safe?</h2>
+Enjoying cannabis is partly about putting yourself in a relaxing state of mind.  It is challenging to have a relaxing experience if you’re nervous about how a drug is going to impact your body.  So let’s address the question of safety right off the bat.  Research from the scientific community is not abundant on marijuana because of it’s historical classification as an illegal substance. However, we can set some reasonable goal posts to get smarter.  First, let’s look at how toxic marijuana is relative to other recreational drugs through a simple ratio: 
 
-Is marijuana safe?  
-Instead on giving you a firehose of science to the face (click for a fire-hose of science to the face): {{link}}), for the purposes of this overview, I just have some quick observations.  
+<img class:img-responsive src=/static/img/blog-started/higher-ratio-less-toxic.png>
 
-Let’s compare the toxicity of Marijuana to other recreational drugs.  Below is data from a study conducted…. 
-It takes the ratio of “fatal dose” to “effective dose” for a variety of recreational drugs.  Using alcohol as an example, a couple shots will give most people a “buzz”, but drink 10x that over a very short time period and you could be in serious health danger.  The higher the ratio, then the harder it is to “overdose” on the drug.   Notice "heroin” at the bottom with the lowest ratio of 5x.  Over doing it to a relatively small degree can be fatal. Alcohol, is only slightly better at 10x and worse than codeine, MDMA, and even cocaine at 15x.  Up at the top sits marijuana.  It is so difficult to overdose from Marijuana poisoning that no one has actually ever done it, hence the arrow and the “>” sign. 
+
+Graph incoming!
 
 <img class:img-responsive src=/static/img/blog-started/lethal-chart.png>
 
-![alt text](/static/img/blog-started/lethal-chart.png)
+**Sources:**<br/>
+<a href=‘http://www.theatlantic.com/daily-dish/archive/2007/03/drugs-and-toxicity/229893/'>The Atlantic: Drugs and Toxicity</a><br/>
+<a href=‘https://www.americanscientist.org/libraries/documents/200645104835_307.pdf'>American Scientist</a>
+
+This graph above takes the ratio of “fatal dose” to “effective dose” for a variety of recreational drugs.  Using alcohol as an example, a couple shots will give most people a “buzz”, but drink 10x that over a very short time period and you could be in serious health danger.  The higher the ratio, then the harder it is to “overdose” on the drug.   Notice "heroin” at the bottom with the lowest ratio of 5x.  Over doing it to a relatively small degree can be fatal. Alcohol, is only slightly better at 10x and worse than codeine, MDMA, and even cocaine at 15x.  Up at the top sits marijuana.  It is so difficult to overdose from marijuana poisoning that it doesn’t happen.
+
+Takeaway, you aren’t going to overdose on marijuana by trying it out. If you have had a beer or a glass wine, marijuana is far less toxic to your body. But you must dose properly, especially with edibles!  More on that later in this guide.  For now, let me disclaim that long-term continued use of any substance, including marijuana, is bound to have health consequences. For now, just know that most forms of marijuana will impact your reaction time.  As a starting point, anything you wouldn’t do while or after drinking alcohol, you shouldn’t do while or after consuming marijuana.  I say “starting point” b/c if you drink any alcohol, then you have a tolerance to it whereas you won’t with marijuana. 
+
+Marijuana comes in a ton of different varieties.  Each strain or cross-strain has a unique experience profile. Some strains have cannabinoids that have no psychoactive effect at all.  That is, weed that doesn’t get you high!!!. I’m talking about Cannabidiol or CBD, but that is for another article.  In general, if you’re consuming marijuana, you shouldn’t be driving a car, operating a crane, or, depending on the strain, trusted with the Cheetos.
+
+If you already have access to marijuana, wonderful.  If you don’t, ease of getting access to it will depend on your state.  This can help <a href=‘www.weedmaps.com'>www.weedmaps.com</a>. and a link to find the laws in your state
 
 
-source: Atlantic http://www.theatlantic.com/daily-dish/archive/2007/03/drugs-and-toxicity/229893/
-source: American Scientist https://www.americanscientist.org/libraries/documents/200645104835_307.pdf
+<h2>Types of Marijuana (weed): Sativa, Indica, Hybrid</h2>
+Marijuana comes in many different varieties. But to give this world some initial form we are going to break it up into two main types, Sativa and Indica. 
 
-better more recent source: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311234/
-also here: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311234/
-American Lung Associate Link: http://www.lung.org/stop-smoking/smoking-facts/marijuana-and-lung-health.html?referrer=https://www.google.com/
-With that we have insight into how much safer marijuana is than alcohol and other drugs from a toxicity standpoint. 
+    Sativa = “high”
+    Indica = “stoned”
+    Hybrid = combination
+
+<h3>Sativa vs Indica: What’s the difference?</h3>
+In general, Sativas are more uplifting and energetic.  They will make you laugh or can help trigger creativity.  Sativas are described as being “heady” as the sensations will occur more in your head, neck and, and face.  Indicas on the other hand are mellow and tend to give you a sensation of relaxed weight on your body.  An indica strain can act as a pain killer, appetite stimulant, sleep aid or help with anxiety.  Hybrids are just that, Sativa and Indica plants cross-bred together so you get a balance of both.  For example, you might use a hybrid when you need to treat pain, but you don’t want to feel too relaxed or sleepy as you might with a full indica.  Some hybrids are a great combo of relaxing and mentally stimulating so you get a kick of mental energy, but also something that will help with anxiety.  (side note on anxiety prevention below)
+
+<h4>Note on Anxiety Prevention:</h4>
+A few things to say here.  First, about the marijuana strain.  In general, if you have issues with anxiety, Indicas or Indica-hybrids (hybrid that has more indica than sativa) are going to be your jam.  Those strains are more relaxing, calming, and soothing.  That does not mean you need to stay away from Sativas completely.  It’s just that Sativas, in general, are more intense in regard to energy and mind stimulation.  That being said, there are mellow Sativas that you will find you prefer much better to some Indicas or Indica Hybrids.  The reason?  For some people the weight of a pure Indica is just too heavy and they want a lighter relaxation.  Also, while there are general rules on how certain strains are supposed to make you feel, each person gets impacted differently.  If a certain strain makes you uncomfortable or gives you a lot of anxiety, then stay away from that strain. 
+
+Second, if you’re new to marijuana, then there is going to be some degree of anxiousness.  If you don’t know what it feels like to be “high” then you are going to feel new things that might take some getting used too.  Also, with alcohol so prominent in society today, someone puking in the toilet because they’ve had "one too many" is often not a cause for too much alarm.  That’s because a lot of us have either been there ourselves or seen others over the toilet.  This adds up to some people freaking out over new sensations and calling the hospital when they are actually completely fine.  It isn’t that marijuana is some bigger thrill to experience, it’s because of ignorance about marijuana relative to alcohol.
+
+Exhibit A:
+<a href=‘https://www.youtube.com/watch?v=wJTLyr7bP2A'>Time is going really really slow….</a>
+
+<h2>How do a get or buy marijuana?</h2>
+
+Article coming soon…
+
+
+<h2>I’ve got the Marijuana, how do I use it?</h2>
+Here are your options for getting cannabinoids into your bloodstream. 
+ 
+1) smoking a joint, pipe, or bong etc <br/>
+2) vaporizing <br/>
+3) edibles<br/>
+4) concentrates<br/>
+
+
+<h4>1) Smoking: Joints, pipes, and bongs</h4>
+I list these first because they are probably the quickest way to get going if you have some buds.
+
+
+
+Joints: 
+     - Papers, as in something to roll the joint in.  You can buy them at most gas stations, liquor stores, and smoke shops.  You could take apart a cigarette and use that paper if you really need to. 
+     - Crutch: You know the filter at the head of a cigarette that prevents the burnt stuff from coming back into someone’s mouth.  Well, same concept.  You can use an actual filter, you can buy a pack of them and the store I just mentioned.  Or, you can make a crutch.  Basically you take a piece of thicker paper, fold it like so.  Make about 4 folds of an accordion, then go around.  Roll this piece up at one end of the paper with the cannabis.  This will give your fingers a place to hold the joint and the accordion will serve as bit of a filter.
+
+
+

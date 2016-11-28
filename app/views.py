@@ -29,6 +29,9 @@ import sys
 reload(sys)
 # sys.setdefaultencoding('utf8')
 
+@app.route('/post')
+def post():
+    return render_template("post.html")
 
 
 @app.route('/about')
