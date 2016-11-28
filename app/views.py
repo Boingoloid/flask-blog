@@ -34,6 +34,14 @@ reload(sys)
 def post():
     return render_template("post.html")
 
+@app.route('/links')
+def links():
+    query_string = request.query_string  ## There is it
+    print "printing query string"
+    print query_string
+    # return "hello"
+    return redirect(query_string,302)
+
 
 @app.route('/about')
 def about():

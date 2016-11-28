@@ -7,14 +7,13 @@ Enjoying cannabis is partly about putting yourself in a relaxing state of mind. 
 
 <img class:img-responsive src=/static/img/blog-started/higher-ratio-less-toxic.png>
 
-
 Graph incoming!
 
 <img class:img-responsive src=/static/img/blog-started/lethal-chart.png>
 
 **Sources:**<br/>
-<a href=‘http://www.theatlantic.com/daily-dish/archive/2007/03/drugs-and-toxicity/229893/'>The Atlantic: Drugs and Toxicity</a><br/>
-<a href=‘https://www.americanscientist.org/libraries/documents/200645104835_307.pdf'>American Scientist</a>
+<a target=_blank href=http://www.theatlantic.com/daily-dish/archive/2007/03/drugs-and-toxicity/229893/s>The Atlantic: Drugs and Toxicity</a><br/>
+<a target=_blank href=https://www.americanscientist.org/libraries/documents/200645104835_307.pdf>American Scientist</a>
 
 This graph above takes the ratio of “fatal dose” to “effective dose” for a variety of recreational drugs.  Using alcohol as an example, a couple shots will give most people a “buzz”, but drink 10x that over a very short time period and you could be in serious health danger.  The higher the ratio, then the harder it is to “overdose” on the drug.   Notice "heroin” at the bottom with the lowest ratio of 5x.  Over doing it to a relatively small degree can be fatal. Alcohol, is only slightly better at 10x and worse than codeine, MDMA, and even cocaine at 15x.  Up at the top sits marijuana.  It is so difficult to overdose from marijuana poisoning that it doesn’t happen.
 
@@ -22,7 +21,8 @@ Takeaway, you aren’t going to overdose on marijuana by trying it out. If you h
 
 Marijuana comes in a ton of different varieties.  Each strain or cross-strain has a unique experience profile. Some strains have cannabinoids that have no psychoactive effect at all.  That is, weed that doesn’t get you high!!!. I’m talking about Cannabidiol or CBD, but that is for another article.  In general, if you’re consuming marijuana, you shouldn’t be driving a car, operating a crane, or, depending on the strain, trusted with the Cheetos.
 
-If you already have access to marijuana, wonderful.  If you don’t, ease of getting access to it will depend on your state.  This can help <a href=‘www.weedmaps.com'>www.weedmaps.com</a>. and a link to find the laws in your state
+If you already have access to marijuana, wonderful.  If you don’t, ease of getting access to it will depend on your state.  This can help: 
+<a target=_blank href=https://www.weedmaps.com>www.weedmaps.com</a>. and a link to find the laws in your state
 
 
 <h2>Types of Marijuana (weed): Sativa, Indica, Hybrid</h2>
@@ -40,8 +40,8 @@ A few things to say here.  First, about the marijuana strain.  In general, if yo
 
 Second, if you’re new to marijuana, then there is going to be some degree of anxiousness.  If you don’t know what it feels like to be “high” then you are going to feel new things that might take some getting used too.  Also, with alcohol so prominent in society today, someone puking in the toilet because they’ve had "one too many" is often not a cause for too much alarm.  That’s because a lot of us have either been there ourselves or seen others over the toilet.  This adds up to some people freaking out over new sensations and calling the hospital when they are actually completely fine.  It isn’t that marijuana is some bigger thrill to experience, it’s because of ignorance about marijuana relative to alcohol.
 
-Exhibit A:
-<a href=‘https://www.youtube.com/watch?v=wJTLyr7bP2A'>Time is going really really slow….</a>
+Exhibit A:<br/>
+<a target=_blank href=https://www.youtube.com/watch?v=wJTLyr7bP2A>Time is going really really slow….</a>
 
 <h2>How do a get or buy marijuana?</h2>
 
@@ -58,13 +58,141 @@ Here are your options for getting cannabinoids into your bloodstream.
 
 
 <h4>1) Smoking: Joints, pipes, and bongs</h4>
-I list these first because they are probably the quickest way to get going if you have some buds.
+I list these first because they are probably the quickest way to get going if you have some buds and the way your likely to encounter marijuana that isn’t yours out in the world.  We’ll knock them down one by one.
+
+**Joints:<br/>**
+<img class:img-responsive src=/static/img/blog-started/joint-diagram.png>
+
+Break up some marijuana, wrap it up with some rolling paper and a crutch rolled up at one end and you’ve got a joint, otherwise known as a “J”. Rolling papers and “filter papers” can be found at most any gas station, liquor store, or smoke shop.  There are a lot of tutorials out there already for how to roll a joint. 
+
+What is filter paper or a crutch? You know the filter at the head of a cigarette that prevents the burnt stuff from coming back into someone’s mouth.  Well, same concept.  You can use an actual filter and buy a pack of them at the store I just mentioned.  Or, you can make a crutch out of a piece of thicker paper, folded as shown above in the diagram.  Make about 4 folds of an accordion, then go around.  Roll this piece up at one end of the paper with the cannabis.  This will give your fingers a place to hold the joint and the accordion will serve as bit of a filter as well as provide structural support.
+
+Inhaling: <br/>
+Once it's rolled, all you have to do is light it and take a hit.  If you are new to weed, then a whole joint is going to be too much for you to smoke on your own.  Just take the hits you want and then you can either cap it in a tube or a jar to extinguish it or just set it down and it should burn out on it’s own.  Then you can relight later when you’d like another hit.
+
+When hitting a joint, as a starting point, give a related inward pull of about 1.5 Mississippi, remove the joint from your mouth, breath in one more second before you relax and exhale.  Some people refers to “ghosting” as holding in the smoke so long that it maximizes the amount of cannabis absorbed in the lungs.  I'd highly recommend against this practice.  Most of the cannabinoids are absorbed quickly in the first few seconds of the hit. Ghosting is no good for your lungs and doesn’t deliver any stronger impact.
+
+Preparing the marijuana:<br/> 
+You’ll have to break up the weed to be able to roll it up into a joint.  You can do this a number of different ways.  If you don’t have a grinder, a shot glass and some scissors work well.  If you have a grinder, don’t grind the buds up too fine.  Maybe just one full turn.  That does two things, first, it ensures the buds chunks are large enough so that air will flow easily through the joint.  That makes the draw (how hard you have to breath in air through the joint) a lot easier (important if you’re rolling a big joint).  Second, if the buds are too fine, after they burn, it is more likely they will come back as ash into your mouth.  So for joints, a coarse grind is usually best.
 
 
+**Pipes and Bongs:**<br/>
+If you have a pipe or a bog, then smoking is even easier because you don’t have to roll a joint.  Here is a quick how-to on using these guys.
 
-Joints: 
-     - Papers, as in something to roll the joint in.  You can buy them at most gas stations, liquor stores, and smoke shops.  You could take apart a cigarette and use that paper if you really need to. 
-     - Crutch: You know the filter at the head of a cigarette that prevents the burnt stuff from coming back into someone’s mouth.  Well, same concept.  You can use an actual filter, you can buy a pack of them and the store I just mentioned.  Or, you can make a crutch.  Basically you take a piece of thicker paper, fold it like so.  Make about 4 folds of an accordion, then go around.  Roll this piece up at one end of the paper with the cannabis.  This will give your fingers a place to hold the joint and the accordion will serve as bit of a filter.
+Loading the bowl:<br> 
+For a pipe or a bong, it is usually easiest to just pick the marijuana buds apart with your fingers and place them in the bowl.  Make larger pieces for the bottom so that you’ll have them as somewhat of a filter for the bottom.  This will help stop burnt pieces or ash from coming back into the bowl toward your mouth.  Stack the weed up until the bowl is full.  
 
+Hitting:<br/>
+Hold up the lighter to the bowl while covering the side hole with you finger.  Start to breath inward.  You will be drawing smoke into the inner chamber of the pipe or bog.  After a few seconds, continue breathing in, but release your finger and the flame.  The smoke in the chamber will go into your lungs.  Hold for just a moment and then exhale.  Start small.  Get a feel for it.  With smaller pipes, you will be inhaling the smoke right away as you start to inhale.  On larger bongs with bigger chambers, more smoke gathers before being inhaled.  When your finger is removed from the side hole there is a more concentrated burst of cannabis into your lungs and your bodily system.  You higher will come on as a quicker wave.  Across the board, the intensity of a hit depends on how much you inhale.  To avoid coughing lower your inhale intensity.  Remember, you just want to take sips.  It’s fine to take a huge rip, but make sure that is what you want to do before you do it.  You get an unlimited number of tries in this game. 
+
+Smoking marijuana when you have nothing but a lighter:<br/>
+There are a few objects that can be made into a bong when one is not available.  The apple bong and the soda can bong are probably the most useful to be aware of.  Resorting to a creative method is neither shameful nor out of the ordinary. Quite the contrary. Ingenuity is praised when it comes to smoking marijuana.  Here are a couple tutorials to help you make there.
+
+
+<a target=_blank href=https://www.youtube.com/watch?v=7WbDN0Csd1E>Apple Bong</a><br/>
+<a target=_blank href=https://www.youtube.com/watch?v=Zix53brg8RA>Soda Can Bong</a>
+
+<h2>2: Vaporizing:</h2>
+Vaporizing is heating the marijuana to a level where the active ingredients (THC or CBD cannabinoids for example) are vaporized so that they can be inhaled.  Vaporizing is an excellent way to enjoy marijuana because you inhale a lot less of the things you don’t want to inhale. You'll need a device to help you achieve this.  There are a bunch of different types of vaporizers and they come in all shapes and sizes, but the concept is similar.  Hot air heats up the buds until the THC vaporizes.  There, now you understand how basically every vaporizer works. Let's drive it home with a diagram.
+
+<img class:img-responsive src=/static/img/blog-started/vape-diagram.png>
+
+More vaporizers are coming out all the time, but there are a few I’ll describe here so you get the feel for different types.  Note, this is not a buying guide and I don’t get any financial benefit from the products mentioned below.  I personally have more experience using Stortz and Bickel products which is why you see them in my examples.  Alright let’s get to it.
+
+**Balloon Vaporizers**<br/>
+The Volcano 
+http://www.storz-bickel.com/shop_us/en/volcano-digit
+
+The Volcano by Stortz and Bickel is the most iconic vaporizer out there.  This german engineered device is no joke.  It’s looks like an apollo space shuttle with a balloon on the top.  The Volcano uses a heater and a fan to blow hot air upward.  That hot air passes up through the ground herbs and fills the balloon with vapor.  
+
+<img class:img-responsive src=/static/img/blog-started/volcano-diagram-vertical.png>
+
+Once the balloon is full, the balloon (and it’s plastic clip nozzle) snaps off.  Then connect the mouth valve and you are good to go.  See below.
+
+<img class:img-responsive src=/static/img/blog-started/volcano-nozzle.png>
+
+Why buy a volcano?<br/>
+The Volcano is expensive, but the balloon mechanism helps the heat dissipate a bit prior to going into your esophagus and lungs.  This is a huge plus for both the smoothness of the hit and your respiratory health.  If you want the premium in home experience the volcano is the way to go.  You can get a carrying case for the Volcano, but unless you want to bring a bag it is not particularly portable (I list mobile vaporizers below).  There are a number of other balloon type vaporizers that I won’t mention here.
+
+**Whip Vaporizers**
+Whip type vaporizers differ in that instead of the vapor being captured in a balloon, it goes through a cooling coil (the "whip”) directly to your mouth.  But the concept is the same.  When hitting a whip vaporizer, you will have to inhale more firmly because it is the suction from your mouth that pulls the hot air over the herbs.  
+
+Here are images of a few whip vaporizers:
+
+Plenty:<br/>
+http://www.storz-bickel.com/shop_us/en/plenty-vaporizer
+
+<img class:img-responsive src=/static/img/blog-started/plenty.png>
+
+Arizer Extreme Q:<br/>
+http://arizer.com/store/en/arizer-desktop/21-aroma-arizer-extreme-q-heater.html
+
+<img class:img-responsive src=/static/img/blog-started/arizer.png>
+
+Silver Surfer:<br/>
+http://7thfloorvapes.com/index.php/seventhfloorvapes/vaporizers/desktop/super-surfer.html
+
+<img class:img-responsive src=/static/img/blog-started/silver-surfer.png>
+
+Vapir Rise:<br/>
+http://www.vapir.com/vapirrise-vaporizer
+
+<img class:img-responsive src=/static/img/blog-started/vapir-rise.png>
+
+
+**Portable Vaporizers**<br/>
+There are a number of vaporizers not he market now that are compact, discrete, and portable.  Some of these work so well they can actually serve and your primary vaping device at home and when you’re on the move.  Portable vaporizers typically have a metal bowl where you put the herbs.  The surfaces of the metal bowl heat up and that heat gets spread through the herbs vaporizing the THC.  Here are a few to be familiar with:
+
+The Pax:<br/>
+https://www.paxvapor.com/pax-2
+The Pax is made by a company called “Ploom”.   This vape is super sleek and discrete.  The light on the body illuminates purple when it is heating and then green when it is ready to hit.  Just bring it up and rip away.  Depending on how tightly the herbs are packed will depend on how hard you need to pull (suck in with your mouth).
+
+<img class:img-responsive src=/static/img/blog-started/pax-green.png>
+<img class:img-responsive src=/static/img/blog-started/pax-bowl.png>
+
+
+The Mighty and The Crafty:<br/>
+Stortz and Bickel, a company you’ve seen earlier on this list, finally made the move into portable vaporizers with these two products.<br/> 
+<a target=_blank href=http://www.storz-bickel.com/shop_us/en/portable-mighty-vaporizer>http://www.storz-bickel.com/shop_us/en/portable-mighty-vaporizer/
+</a><br/>
+<a target=_blank href=http://www.storz-bickel.com/shop_us/en/crafty-portable-app-vaporizer>http://www.storz-bickel.com/shop_us/en/crafty-portable-app-vaporizer</a>
+
+<img class:img-responsive src=/static/img/blog-started/mighty-crafty.png>
+
+
+<h2>3) Edibles:</h2>
+Edibles are a great way to experience cannabis.  If you are new to them then you should wade systematically into these waters.  It is very easy for people to over do it and have an unpleasant experience.  This is chiefly attributed to the fact that it can take 1.5 hours to feel the full impact of the cannabis. Then in a half hour the second one kicks in.  If you have an edible, you should wait a full 1.5 hours until you take more.  I’ve seen people get to 1 hour, say they don’t feel anything and eat more and then be in an uncomfortable spot.  Be smart!  Here is some information that will help you navigate the edible waters.
+
+How much to take?<br/>
+You should never eat a marijuana edible without knowing exactly how much THC is in it.  I am not a doctor.  This is simply the verbal guide that I give to friends put in diagram form.  For a friend who is a first timer who is of average build, I’d be very comfortable starting them with a 5 mg dose.  However, I’ve seen study abstracts that show that some people can feel the effects of as little as 1.5 mg THC.  So starting at 3 or 4 mg totally works too and is a good alternative if you want to dial it back a tad.  You should do that anyway if you have a smaller body would call for it.  If you are mixing with alcohol, know that it will magnify the impact of the cannabis meaningfully.  If you are a newbie, I wouldn’t mix them at all.  First, the alcohol could greatly magnify the cannabis past where you’re comfortable.  Second, it’s pretty compelling to just focus on the cannabis sensation and get to know how your body reacts uncluttered by the alcohol.  
+
+Let’s start with a dosage chart. Understand this is how I would explain it to someone new.  
+<img class:img-responsive src=/static/img/blog-started/edible-dosage-chart.png>
+
+Ok, so now you have a feel for how many mg of THC to target. But figuring out how much you’re about to take with the edible you’re looking at is sometimes challenging.  
+
+How much THC is in the edible?<br/>
+You should absolutely find out how much THC is in the edible you are about to eat.  This is not as easy as it would seem for a couple reasons. 
+
+Challenge 1: Young industry and inconsistent/confusing labelling
+The cannabis Industry is young and labelling isn’t as consistent as it should be.  First off, you sometimes see the number of doses printed on the package, but every company’s dose measurement might be different.  You should go by the milligrams of THC in the edible.  And even in that case, know that the mg printed on the package may not be a perfect measurement. On top of all that remember that different cannabinoids exists in different plant strains.  Although an edible is often labelled “indica” or “sativa”, it typically won’t tell you what specific strain, or likely combination of strains, were used.  Getting your edibles from certified dispensaries and asking them about which brands are trusted will help you get what you’re expecting.  
+
+Challenge 2: Available dose might be much higher than you need
+There are a lot of edibles out there with high potency.  If an edible has 50 mg THC and you only want to take 10 mg, then you got to approximate eating a 1/5 of it.  Since you are dealing with an organic piece of food, the cannabinoids will not be distributed perfectly throughout the edible.  Take this into account.  Always under estimate in these situations to give yourself some cushion.  Playing it safe is always the good decision.  Once you have a base with an edible, if you desire, you can always smoke or vape from there.  The if you over do it, you only have to wait a half hour or so until your feeling much better.
+
+How long will the effects last?
+Medical research has been held back because of the illegal status of marijuana so you won’t be finding any good information from the FDA.  Again, I’m not a doctor, but in describing the timeline of impact to a friend, I’d chart it this way:
+
+<img class:img-responsive src=/static/img/blog-started/edible-impact-chart.png>
+
+Some comments here.   First the overall narrative.  An edible will typically start to phase in around the hour mark.  It will ramp fairly quickly once it starts and this drop in can be alarming if you haven’t felt it before.  From 1.5 to 2.5 hours, it’s party time.  You’ll feel he maximum effects in long waves here. Around the 3 hour mark you can clearly feel the effects dissipating, but you will still very much be feeling the cannabis.   At the 3.5 to 4 hour mark, you’re now feeling the come down.  The come down period differs widely depending on the strain.  Past the 5 hour mark it depends on both the person and what else they have done or consumed that day.  If you have an empty stomach then expect the edible to hit much more quickly.  And subsequently, if you do eat, kicking off the digestion process can amplify the impact of the cannabis. Exercise has a similar supercharging effect.  
+
+A note on edibles like hard candy and lolly-pops:<br/>
+While these edibles are being digested like say, a brownie would be, there is also THC being absorbed through your mouth and lips.  You can start to feel the impacts from these edibles as quick as 15 minutes since it is a much quicker trip to your bloodstream.  But since you are consuming them more slowly, say over 10 or 15 minutes and again, part of that THC is going to your stomach, it significantly smooths out the ramp up curve.  
+
+What to do if you have too much edible?
+First, don’t panic.  Second, if you can get your hands on some CBD tincture it will help decrease the impact of the THC that overwhelming you.  The CBD is a cannabinoid that attaches to the same receptors as the THC, therefore when CBD is in your system, there are less open receptors for the THC to attach to.  Since CBD is not psychoactive it will help reduce the impact of the THC on your senses.  That’s right, cannabis that makes you less high.   Third, having just a little caffeine can help, but not if anxiety is a major issue as it might make things less comfortable.
+
+<h2>Concentrates</h2>
 
 
