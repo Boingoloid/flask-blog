@@ -3,6 +3,8 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -14,6 +16,14 @@ p {
 }
 p a {
   text-decoration: underline;
+}
+
+a {
+  color: #0000ff;
+}
+
+footer a{
+  color: #333333;
 }
 
 h1{
@@ -29,9 +39,7 @@ h6 {
   font-weight: 800;
   color: black;
 }
-a {
-  color: #333333;
-}
+
 a:hover,
 a:focus {
   color: #0085A1;
@@ -294,6 +302,7 @@ footer .copyright {
   margin-bottom: 0;
 }
 
+
 .floating-label-form-group {
   font-size: 14px;
   position: relative;
@@ -419,3 +428,61 @@ body {
   -webkit-tap-highlight-color: #0085A1;
 }
 
+.post-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .post-container {
+    width: 25px;
+  }
+}
+
+pre, code{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr:nth-child(1) { background: hsl(160, 60%, 50%); }
+tr:nth-child(2) { background: hsl(170, 70%, 50%); }
+tr:nth-child(3) { background: hsl(170, 70%, 50%); }
+tr:nth-child(4) { background: hsl(170, 70%, 50%); }
+tr:nth-child(5) { background: hsl(170, 70%, 50%); }
+
+/*@media (min-width: 768px) {
+  .post-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .post-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .post-container {
+    width: 1170px;
+  }
+}
+.post-container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.post-container{
+  max-width:90%
+}*/

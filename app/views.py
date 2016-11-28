@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from markdown.extensions import tables
 
 from app import app
 import pymongo
@@ -8,12 +9,10 @@ from flask import (Flask, jsonify, abort, flash, Markup, redirect, render_templa
                    request, Response, session, url_for)
 
 
-from markdown import markdown
 from markdown.extensions.codehilite import CodeHiliteExtension
 from markdown.extensions.extra import ExtraExtension
 import markdown2
-from markdown2 import Markdown
-markdowner = Markdown()
+# markdowner = Markdown(extras="wiki-tables")
 from micawber import bootstrap_basic, parse_html
 from micawber.cache import Cache as OEmbedCache
 from peewee import *
@@ -79,8 +78,6 @@ def index():
         }
     ]
 
-
-
     blogTitle = "First Post"
     client = pymongo.MongoClient(app.config['MONGODB_URI'])
     db = client.get_default_database()
@@ -88,37 +85,34 @@ def index():
     blog = db.post.find_one()
 
     in_file = open("app/static/img/blog-started/text.txt") # open file lorem.txt for reading text
-    # data
-    # in_file = codecs.open("app/static/img/blog-started/text.txt", "r", "utf8") # open file lorem.txt for reading text
     contents = in_file.read() # read the entire file into a string variable
     in_file.close() # close the file
     contents_unicode = contents.decode('utf-8')
     print "print contents of read method:"
     print(type(contents)) # print contents
-    # code = unicode(contents)
-    # print (type(code))
-    # contents_unicode = contents.decode('utf-8').strip()
-    # print (type(contents_unicode))
-    # a = contents_unicode
-    # b = a.encode('ascii','ignore')
-    # print (type(blog["content"]))
 
 
-    markdowner = Markdown()
 
-    def html_content(contents):
-        hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
-        extras = ExtraExtension()
-        markdown_content = markdown(contents, extensions=[hilite, extras])
-        oembed_content = parse_html(
-            markdown_content,
-            oembed_providers,
-            urlize_all=True
-            # maxwidth=app.config['SITE_WIDTH']
-        )
-        return Markup(oembed_content)
 
-    word = markdowner.convert(contents)
+    # def html_content(contents):
+    #     hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
+    #     extras = ExtraExtension()
+    #     markdown_content = markdowner(contents, extensions=[hilite, extras],extras="wiki-tables")
+    #
+    #     oembed_content = parse_html(
+    #         markdown_content,
+    #         oembed_providers,
+    #         urlize_all=True
+    #         # maxwidth=app.config['SITE_WIDTH']
+    #     )
+    #     return Markup(oembed_content)
+
+
+    # word = markdowner.convert(contents)
+
+
+    word = markdown2.markdown(contents,extras=["wiki-tables"])
+
 
     import lxml
     from lxml import html
@@ -178,28 +172,3 @@ if __name__ == '__main__':
     #                            providers=app.config['OPENID_PROVIDERS'])
 
 
-    #
-    # @app.route('/')
-    # def index():
-    #     search_query = request.args.get('q')
-    #     if search_query:
-    #         query = Entry.search(search_query)
-    #     else:
-    #         query = Entry.public().order_by(Entry.timestamp.desc())
-    #     return object_list('index.html', query, search=search_query)
-
-
-
-
-
-
-    # '''
-    # <html>
-    #   <head>
-    #     <title>Home Page</title>
-    #   </head>
-    #   <body>
-    #     <h1>Hello, ''' + user['nickname'] + '''</h1>
-    #   </body>
-    # </html>
-    # '''
