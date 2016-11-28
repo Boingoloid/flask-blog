@@ -25,12 +25,11 @@ Marijuana comes in a ton of different varieties.  Each strain or cross-strain ha
 Marijuana comes in many different varieties. But to give this world some initial form we are going to break it up into two main types, Sativa and Indica. 
 
 
-<h3>Sativa vs Indica: What’s the difference?</h3>
+###Sativa vs Indica: What’s the difference?
 
-||  **Type**  ||   **Sensation**  ||
-||   Sativa   ||    “High”        ||
-||   Indica   ||    “Stoned”      ||
-||   Hybrid   ||    Combination   ||
+    Sativa: Makes you “high”, happy, energetic
+    Indica: Makes you “stoned”, relaxing, mellow
+    Hybrid: Combination
 
 **Sativa**<br/>
 In general, Sativas are more uplifting and energetic.  They will make you laugh or can help trigger creativity.  Sativas are described as being “heady” as the sensations will occur more in your head, neck and, and face.  
