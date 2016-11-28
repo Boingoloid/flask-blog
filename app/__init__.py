@@ -16,20 +16,10 @@ import views
 app.config['MONGO_DBNAME'] = "app"
 app.config['MONGODB_URI'] = 'mongodb://localhost/app'
 
-# app.config['MONGODB_SETTINGS'] = {
-#     'db': 'app',
-#     'host': 'mongodb://localhost/app'
-# }
 
-app.config['SECRET_KEY'] = '123456790'
+app.config['SECRET_KEY'] = '38649539871'
 
 app.config.from_object('config')
-# app.config.from_pyfile('../config.py')
-
-# app.config['MONGODB_SETTINGS'] = {
-# 'db': 'project1',
-# 'host': 'mongodb://localhost/database_name'
-# }
 
 db = MongoEngine(app)
 print 'print the database object'
