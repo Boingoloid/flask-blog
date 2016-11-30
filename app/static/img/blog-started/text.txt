@@ -126,10 +126,12 @@ Whip type vaporizers differ in that instead of the vapor being captured in a bal
 
 Here are images of a few whip vaporizers:
 
+
 **Plenty:**<br/>
 [link](http://www.storz-bickel.com/shop_us/en/plenty-vaporizer)
 
 <img class:img-responsive height=200 width=200 src=/static/img/blog-started/plenty.png>
+
 
 **Arizer Extreme Q:**<br/>
 [link](http://arizer.com/store/en/arizer-desktop/21-aroma-arizer-extreme-q-heater.html)
@@ -141,13 +143,6 @@ Here are images of a few whip vaporizers:
 
 <img class:img-responsive height=200 width=200 src=/static/img/blog-started/silver-surfer.png>
 
-**Vapir Rise:**<br/>
-[link](http://www.vapir.com/vapirrise-vaporizer)
-
-
-<img class:img-responsive height=200 width=200 src=/static/img/blog-started/vapir-rise.png>
-
-
 ###Portable Vaporizers
 There are a number of vaporizers not he market now that are compact, discrete, and portable.  Some of these work so well they can actually serve and your primary vaping device at home and when you’re on the move.  Portable vaporizers typically have a metal bowl where you put the herbs.  The surfaces of the metal bowl heat up and that heat gets spread through the herbs vaporizing the THC.  Here are a few to be familiar with:
 
@@ -155,19 +150,17 @@ There are a number of vaporizers not he market now that are compact, discrete, a
 [link](https://www.paxvapor.com/pax-2)<br/>
 The Pax is made by a company called “Ploom”.   This vape is super sleek and discrete.  The light on the body illuminates purple when it is heating and then green when it is ready to hit.  Just bring it up and rip away.  Depending on how tightly the herbs are packed will depend on how hard you need to pull (suck in with your mouth).
 
-<img class:img-responsive src=/static/img/blog-started/pax-green.png>
-<img class:img-responsive src=/static/img/blog-started/pax-bowl.png>
+<img height=200 width=200 class:img-responsive src=/static/img/blog-started/pax-green.png>
+<img height=200 width=200 class:img-responsive src=/static/img/blog-started/pax-bowl.png>
 
 
 **The Mighty and The Crafty:**<br/>
-<a target=_blank href=http://www.storz-bickel.com/shop_us/en/portable-mighty-vaporizer>Mighty</a><br/>
-<a target=_blank href=http://www.storz-bickel.com/shop_us/en/crafty-portable-app-vaporizer>Crafty</a>
+<a target=_blank href=http://www.storz-bickel.com/shop_us/en/portable-mighty-vaporizer>Mighty (larger)</a><br/>
+<a target=_blank href=http://www.storz-bickel.com/shop_us/en/crafty-portable-app-vaporizer>Crafty (smaller)</a>
 
 Stortz and Bickel, a company you’ve seen earlier on this list, finally made the move into portable vaporizers with these two products.<br/> 
 
-
 <img class:img-responsive src=/static/img/blog-started/mighty-crafty.png>
-
 
 <h2>3) Edibles:</h2>
 Edibles are a great way to experience cannabis.  If you are new to them then you should wade systematically into these waters.  It is very easy for people to over do it and have an unpleasant experience.  This is chiefly attributed to the fact that it can take 1.5 hours to feel the full impact of the cannabis. Then in a half hour the second one kicks in.  If you have an edible, you should wait a full 1.5 hours until you take more.  I’ve seen people get to 1 hour, say they don’t feel anything and eat more and then be in an uncomfortable spot.  Be smart!  Here is some information that will help you navigate the edible waters.
@@ -180,13 +173,11 @@ Let’s start with a dosage chart. Understand this is how I would explain it to 
 
 Ok, so now you have a feel for how many mg of THC to target. But figuring out how much you’re about to take with the edible you’re looking at is sometimes challenging.
 
-
 ###How much THC is in the edible?
 You should absolutely find out how much THC is in the edible you are about to eat.  This is not as easy as it would seem for a couple reasons. <br/>
 
-
 **Challenge 1: Young industry and inconsistent/confusing labelling**<br/>
-The cannabis Industry is young and labelling isn’t as consistent as it should be.  First off, you sometimes see the number of doses printed on the package, but every company’s dose measurement might be different.  You should go by the milligrams of THC in the edible.  And even in that case, know that the mg printed on the package may not be a perfect measurement. On top of all that remember that different cannabinoids exists in different plant strains.  Although an edible is often labelled “indica” or “sativa”, it typically won’t tell you what specific strain, or likely combination of strains, were used.  Getting your edibles from certified dispensaries and asking them about which brands are trusted will help you get what you’re expecting.  
+The cannabis Industry is young and labelling isn’t as consistent as it should be.  First off, you sometimes see the number of doses printed on the package, but one company’s dose measurement might be different from another's.  You should go by the milligrams of THC in the edible.  And even in that case, know that the mg printed on the package may not be a perfect measurement. On top of all that remember that different cannabinoids exists in different plant strains.  Although an edible is often labelled “indica” or “sativa”, it typically won’t tell you what specific strain, or likely combination of strains, were used.  Getting your edibles from certified dispensaries and asking them about which brands are trusted will help you get what you’re expecting.  
 
 **Challenge 2: Available dose might be much higher than you need**<br/>
 There are a lot of edibles out there with high potency.  If an edible has 50 mg THC and you only want to take 10 mg, then you got to approximate eating a 1/5 of it.  Since you are dealing with an organic piece of food, the cannabinoids will not be distributed perfectly throughout the edible.  Take this into account.  Always under estimate in these situations to give yourself some cushion.  Playing it safe is always the good decision.  Once you have a base with an edible, if you desire, you can always smoke or vape from there.  The if you over do it, you only have to wait a half hour or so until your feeling much better.
@@ -201,9 +192,66 @@ Some comments here.   First the overall narrative.  An edible will typically sta
 **A note on edibles like hard candy and lolly-pops:**<br/>
 While these edibles are being digested like say, a brownie would be, there is also THC being absorbed through your mouth and lips.  You can start to feel the impacts from these edibles as quick as 15 minutes since it is a much quicker trip to your bloodstream.  But since you are consuming them more slowly, say over 10 or 15 minutes and again, part of that THC is going to your stomach, it significantly smooths out the ramp up curve.  
 
-###What to do if you have too much edible?
-First, don’t panic.  Second, if you can get your hands on some CBD tincture it will help decrease the impact of the THC that overwhelming you.  The CBD is a cannabinoid that attaches to the same receptors as the THC, therefore when CBD is in your system, there are less open receptors for the THC to attach to.  Since CBD is not psychoactive it will help reduce the impact of the THC on your senses.  That’s right, cannabis that makes you less high.   Third, having just a little caffeine can help, but not if anxiety is a major issue as it might make things less comfortable.
+###What to do if you have too much marijuana edible?
+1. Don’t panic, you're going to be fine.
+2. CBD tincture will decrease the psychoactive impact of the THC that is overwhelming you.  The CBD (Cannabidiol) is a cannabinoid that attaches to the same receptors as the THC, therefore when CBD is in your system, there are less open receptors for the THC to attach to.  Since CBD is not psychoactive it will help reduce the impact of the THC on your senses.  That’s right, cannabis that makes you less high.
+3. Having just a little caffeine can help, but not if anxiety is a major issue as it might make things less comfortable.
+
 
 ##Concentrates
+
+"Concentrates" is a wide category, elements of which will play a major role in the future of marijuana.  Broadly, this group is stuff where the active ingredient in the marijuana plant (the cannabinoids) have been extracted.  I'll list the main types of concentrates and cover how you will see them out in the world.  
+
+First, a tiny brain spasm marijuana plant anatomy.  Check out this picture of a beautiful marijuana flower below.
+<div><img class:img-responsive src=/static/img/blog-started/trichomes.png></div>
+See those white crystal structures all over the marijuana plant? Those tiny structures are called trichomes and while cannabinoids are present throughout the entire plant and leaves, the concentration is highest in these crystal trichomes.  Since getting your mind blown is fun, let's zoom way in.
+<div><img class:img-responsive src=/static/img/blog-started/trichomes-close-up.png></div>
+I mean, how bitchen do those things look?  Thus ends our brain spasm on marijuana plant anatomy. Now, let's talk concentrates.
+
+###Kief:
+Remember the trichomes we discussed about 8 seconds ago. Those can be collected from the marijuana plant by grinding it up or shacking it.  Sometimes the plant is frozen and the trichomes are agitated and broken off. Typically a screen is used that is specifically sized to let the trichome slip through but not any other plant matter.  Take a bunch of trichomes that have fallen off the marijuana plant and collect them into a dusty powder and you have...Kief!  Here is what it looks like.   
+
+
+###Hash:
+Hash is simply Kief, compressed.  here is a picture.
+
+Vocabulary spasm:
+Resin:  The interweaving of trichomes on the plant which is goo-like in texture
+Trichomes: The individual crystal structures that make up the resin and contain a high concentration of cannabinoids
+Kief: Trichomes that have fallen off the plants and are collected together
+Hash: Compressed Kief
+
+###Tinctures: 
+Tinctures are a wonderful entry point for people who don't want to inhale anything. Tinctures are basically high proof alcohol infused with cannabinoids.  The alcohol is used as a solvent to extract the active ingredients from the marijuana plant.  Marijuana Tinctures typically come in a small bottle with an eyedropper cap.  Simply put a few drops on or under your tongue and your good to go. 
+
+By example, as an experienced user, depending on the tincture, you might take 3 to 5 drops under the tongue and then for a minute or so, rub your tongue around to coat your inner mouth with the tincture and let it sit without swallowing.  This leads to a bunch of the cannabinoids getting absorbed through the tissue in your mouth, as opposed to your stomach, so they will reach your bloodstream more quickly.  When THC is absorbed this way, the time to impact is shortened.  It can take as little as 15 minutes or as long as 45 to start feeling the effects. Alternatively, if you swallow the drops down immediately, expect the impact timing to be closer to if you ate a normal edible.
+
+###Hash Oil: 
+A broad category that includes a variety of extraction techniques.  Hash oil doesn't really have anything to do with the "hash" we described earlier.  It is simply a sticky extract that contains concentrated amounts of cannabinoids.  A tic-tac size of one of these concentrates can contain as much THC as multiple joints.  With concentrates there are two major attributes you will hear throw around, a)extraction method and b)texture.  First let's tackle the popular extraction methods.  Here we have solvent and solventless methods.  Here is a rundown of the most popular.
+
+**a) Extraction Methods**<br/>
+####CO2 Oil (solventless):
+CO2 oil is created using magic.  That magic, involves putting CO2 into the perfect temperature and pressure conditions so that it becomes a supercritical fluid, which means it acts like a liquid and a gas at the same time.  It can pass through the marijuana plant material like a gas and yet still absorb and extract the cannabinoids as if it was a liquid solvent. As a last step, lower the pressure and the CO2 evaporates away leaving a very clean, very pure concentrated hash oil. Like I said, magic. 
+
+You'll find CO2 oil is in a lot of vape pens that are out on the market.  Here are a few.
+
+####Butane Hash Oil - BHO (solvent):
+Butane is a light hydrocarbon commonly used as a solvent which is then boiled away to leave a very pure oil or wax that can get to levels of 90% THC.
+
+####Ice Water Hash (solventless):
+This process involves freezing the trichomes so that they become brittle and then using a mechanical process, water, and ice to gather and then filter out the brittle trichomes. A water solution containing the trichomes is passed through filters and dried.
+
+All of these extraction methods will create concentrates of varying stickiness, stability, color, and cannabinoid concentration.  Additionally, these attributes will vary considerably depending upon the cannabinoid profile of the strain, as well as the specific heat, pressure, and duration levels used during extraction method.
+
+**b) Textures**<br/>
+Here is where the terms like bubble hash, wax, budder, crumble, shatter, honey oil, and just plain oil come into play.  If you want to force all of these attributes on one axis, it's texture.  On one end is the harder, more rigid "shatter", which is glass like in appearance.  Shatter that is still glass like, but slightly less hard will stretch and snap off like pulling apart extremely thick taffy.  This is sometimes called "pull-and-snap".  
+
+Moving down the texture scale we get sappier and less stable.  "Honeycomb" is smoother like shatter, but brittle. "Budder", and "crumble" are crumbly waxes.  They will typically break apart as you handle them and they remind me of handling a chunk of cookie that is crumbling in my hands. Then you've got oils.  Some are thick and sticky and used in dabbing (more below).  Others are more liquidly and used in vape pens.
+
+##Wrap up:
+That does it for this article.  More to come soon.
+
+
+
 
 
