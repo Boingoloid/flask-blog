@@ -67,7 +67,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 500;
 }
 .navbar-custom .navbar-header .navbar-toggle {
   color: black;
@@ -77,8 +77,8 @@ hr.small {
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
+  font-size: 14px;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
