@@ -3,11 +3,11 @@ So you’re ready to give marijuana a try?
 This article will educate you on the basics of marijuana enjoyment. With this knowledge, you’ll be equipped to enjoy marijuana safely and navigate social situations involving cannabis with grace.  Let’s get started!
 
 <h2>Is Marijuana Safe?</h2>
-Enjoying cannabis is partly about putting yourself in a relaxing state of mind.  It is challenging to have a relaxing experience if you’re nervous about how a drug is going to impact your body.  So let’s address the question of safety right off the bat.  Research from the scientific community is not abundant on marijuana because of it’s historical classification as an illegal substance. However, we can set some reasonable goal posts to get smarter.  First, let’s look at how toxic marijuana is relative to other recreational drugs through a simple ratio: 
+Enjoying cannabis is partly about putting yourself in a relaxing state of mind.  It is challenging to have a relaxing experience if you’re nervous about how a drug is going to impact your body. So let’s address the question of safety right off the bat.  Research from the scientific community is not abundant on marijuana because of it’s historical classification as an illegal substance. However, we can set some reasonable goal posts to get smarter.  First, let’s look at how toxic marijuana is relative to other recreational drugs through a simple ratio: 
 
 <img class:img-responsive src=/static/img/blog-started/higher-ratio-less-toxic.png>
 
-Graph incoming!
+The graph below displahys this ratio of “fatal dose” to “effective dose” for a variety of recreational drugs.  Using alcohol as an example, a couple shots will give most people a “buzz”, but drink 10x that over a very short time period and you could be in serious health danger.  The higher the ratio, then the harder it is to “overdose” on the drug. Graph incoming!
 
 <img class:img-responsive src=/static/img/blog-started/lethal-chart.png>
 
@@ -15,7 +15,7 @@ Graph incoming!
 <a target=_blank href=http://www.theatlantic.com/daily-dish/archive/2007/03/drugs-and-toxicity/229893/s>The Atlantic: Drugs and Toxicity</a><br/>
 <a target=_blank href=https://www.americanscientist.org/libraries/documents/200645104835_307.pdf>American Scientist</a>
 
-The graph above takes the ratio of “fatal dose” to “effective dose” for a variety of recreational drugs.  Using alcohol as an example, a couple shots will give most people a “buzz”, but drink 10x that over a very short time period and you could be in serious health danger.  The higher the ratio, then the harder it is to “overdose” on the drug.   Notice "heroin” at the bottom with the lowest ratio of 5x.  Over doing it to a relatively small degree can be fatal. Alcohol, is only slightly better at 10x and worse than codeine, MDMA, and even cocaine at 15x.  Up at the top sits marijuana.  It is so difficult to overdose from marijuana poisoning that it doesn’t happen. Honerable mention to <a target=_blank href=http://well.blogs.nytimes.com/2014/11/25/a-warning-on-nutmeg/?_r=0>Nutmeg</a> for making the list
+ Notice "heroin” at the bottom with the lowest ratio of 5x.  Over doing it to a relatively small degree can be fatal. Alcohol, is only slightly better at 10x and worse than codeine, <a target=_blank href=https://en.wikipedia.org/wiki/MDMA>MDMA</a>, and even <a target=_blank href=https://en.wikipedia.org/wiki/Cocaine>cocaine</a> at 15x.  Up at the top sits marijuana.  It is so difficult to overdose from marijuana poisoning that it doesn’t happen. Honerable mention to <a target=_blank href=http://well.blogs.nytimes.com/2014/11/25/a-warning-on-nutmeg/?_r=0>nutmeg</a> for making the list.
 
 Takeaway, you aren’t going to overdose on marijuana by trying it out. If you have had a beer or a glass wine, marijuana is far less toxic to your body. But you must dose properly, especially with edibles!  More on that later in this guide.  For now, let me disclaim that long-term continued use of any substance, including marijuana, is bound to have health consequences. For now, just know that most forms of marijuana will impact your reaction time.  As a starting point, anything you wouldn’t do while or after drinking alcohol, you shouldn’t do while or after consuming marijuana.  I say “starting point” b/c if you drink any alcohol, then you have a tolerance to it whereas you won’t with marijuana. 
 
@@ -250,7 +250,6 @@ Moving down the texture scale we get sappier and less stable.  "Honeycomb" is sm
 
 ##Wrap up:
 That does it for this article.  More to come soon.
-
 
 
 
