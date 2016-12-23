@@ -87,12 +87,6 @@ def index():
     in_file = open("app/static/img/blog-started/text.txt") # open file lorem.txt for reading text
     contents = in_file.read() # read the entire file into a string variable
     in_file.close() # close the file
-    contents_unicode = contents.decode('utf-8')
-    print "print contents of read method:"
-    print(type(contents)) # print contents
-
-
-
 
     # def html_content(contents):
     #     hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
@@ -112,13 +106,6 @@ def index():
 
 
     word = markdown2.markdown(contents,extras=["wiki-tables"])
-
-
-    import lxml
-    from lxml import html
-
-    # blogEnriched = html_content(contents)
-    # blogEnriched = html_content("*boo!*")
     blogEnriched = Markup(word)
 
     return render_template("index.html", title='Home', user=user, posts=posts, blog=blog, blogEnriched=blogEnriched)
