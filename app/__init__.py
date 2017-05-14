@@ -28,8 +28,8 @@ print db
 client = pymongo.MongoClient(app.config['MONGODB_URI'])
 db2 = client.get_default_database()
 
-entry = db2.post.find_one()
-print entry
+# entry = db2.post.find_one()
+# print entry
 
 # class post(db.Document):
 #     title = db.StringField(required=True)
@@ -47,70 +47,7 @@ print entry
 # Connect to MongoDB and call the connection "my-app".
 # connect("mongodb://localhost:27017/myDatabase", alias="my-app")
 
-
-# app.config['MONGODB_SETTINGS'] = {
-#     'db': 'heroku_6r9wd2wt',
-#     'username':'part_elf_part_man',
-#     'password':'all_boingo',
-#     'host':'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt',
-#     'port':51117
-# }
-
-
-# class UserForm(Form):
-#     name = StringField('Name')
-#     email = StringField('Email')
-
-    # column_filters = ['title']
-
-# PostView = model_form(post)
-
-# client = pymongo.MongoClient(app.config['MONGODB_URI'])
-# DEFAULT_CONNECTION_NAME = 'default-mongodb-connection'
-# alias=DEFAULT_CONNECTION_NAME
-# connection = db.connection
-
-# db = client.get_default_database()
-
-# app.config['MONGODB_SETTINGS'] = {
-#     'alias': 'default',
-#     'db': 'heroku_6r9wd2wt',
-#     'host': 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt',
-#     'port': 51117,
-# }
-
-# conn = pymongo.Connection()
-
-# admin = admin.Admin(app, name='flask-blog-mj', template_mode='bootstrap3')
-from flask_admin.contrib.sqla import ModelView
-
-
-
-
-
-# app.config['MONGODB_SETTINGS'] = {'db': 'heroku_6r9wd2wt',
-# 'host': 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt'
-# }
-# mongo = PyMongo(app)
-#
-# app.config['MONGODB_DB'] = 'heroku_6r9wd2wt'
-# app.config['MONGODB_USERNAME'] = 'part_elf_part_man'
-# app.config['MONGODB_PASSWORD'] = 'all_boingo'
-# app.config['MONGODB_HOST'] = 'mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt'
-# app.config['MONGODB_PORT'] = 51117
-
-# client = pymongo.MongoClient(app.config['MONGODB_URI'],connect=False)
-# db = client.get_default_database()
-
-
-
-
-
-
-
 # if __name__ == '__main__':
-
-
 
 
 # script to add a user

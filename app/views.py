@@ -63,20 +63,29 @@ def send_contact():
 
     return ('hello',203)
 
+
+from flask import send_from_directory
+
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static, request.path[1:])
+
+
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'nickname': 'Miguel'}  # fake user
-    posts = [  # fake array of posts
-        {
-            'author': {'nickname': 'John'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'nickname': 'Susan'},
-            'body': 'The Avengers movie was so cool!'
-        }
-    ]
+    # user = {'nickname': 'Miguel'}  # fake user
+    # posts = [  # fake array of posts
+    #     {
+    #         'author': {'nickname': 'John'},
+    #         'body': 'Beautiful day in Portland!'
+    #     },
+    #     {
+    #         'author': {'nickname': 'Susan'},
+    #         'body': 'The Avengers movie was so cool!'
+    #     }
+    # ]
 
     blogTitle = "First Post"
     client = pymongo.MongoClient(app.config['MONGODB_URI'])
@@ -110,36 +119,36 @@ def index():
 
     return render_template("index.html", title='Home', user=user, posts=posts, blog=blog, blogEnriched=blogEnriched)
 
-import datetime
-@app.route('/add')
-def add():
-    # online_users = list(mongo.db.users.find().count())
-    client = pymongo.MongoClient(app.config['MONGODB_URI'])
-    db = client.get_default_database()
-
-    # result = db.users.insert_one()
-    userscount = db.hello_world.find().count()
-
-    print "print some shit"
-    print(userscount)
-
-#     title = CharField()
-#     slug = CharField(unique=True)
-#     content = TextField()
-#     published = BooleanField(index=True)
-#     timestamp = DateTimeField(default=datetime.datetime.now, index=True)
-
-    result = db.post.insert_one(
-    {
-        "title": "First Post",
-        "content": "The body of the post with image: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")",
-        "published": 1,
-        "timestamp": datetime.utcnow(),
-    }
-    )
-
-    print (result)
-    return 'Added post'
+# import datetime
+# @app.route('/add')
+# def add():
+#     # online_users = list(mongo.db.users.find().count())
+#     client = pymongo.MongoClient(app.config['MONGODB_URI'])
+#     db = client.get_default_database()
+#
+#     # result = db.users.insert_one()
+#     userscount = db.hello_world.find().count()
+#
+#     print "print some shit"
+#     print(userscount)
+#
+# #     title = CharField()
+# #     slug = CharField(unique=True)
+# #     content = TextField()
+# #     published = BooleanField(index=True)
+# #     timestamp = DateTimeField(default=datetime.datetime.now, index=True)
+#
+#     result = db.post.insert_one(
+#     {
+#         "title": "First Post",
+#         "content": "The body of the post with image: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")",
+#         "published": 1,
+#         "timestamp": datetime.utcnow(),
+#     }
+#     )
+#
+#     print (result)
+#     return 'Added post'
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,7 +1,5 @@
 import os
 
-
-
 WSGI_APPLICATION = 'app.wsgi.application'
 DEBUG = True
 
