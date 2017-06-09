@@ -1,11 +1,22 @@
-# from app import db
-#
+from app import *
+# db = MongoEngine(app)
+app = Flask(__name__)
+import views
+
+app.config['MONGO_DBNAME'] = "heroku_6r9wd2wt"
+app.config['MONGODB_URI'] = "mongodb://part_elf_part_man:all_boingo@ds151117.mlab.com:51117/heroku_6r9wd2wt"
+app.config['SECRET_KEY'] = '38649539871'
+
+app.config.from_object('config')
+
+db = MongoEngine(app)
+
 # class User(db.Model):
 #     id = db.Column(db.Integer, primary_key=True)
 #     nickname = db.Column(db.String(64), index=True, unique=True)
 #     email = db.Column(db.String(120), index=True, unique=True)
 #     posts = db.relationship('Post', backref='author', lazy='dynamic')
-#
+
 #     def __repr__(self):
 #         return '<User %r>' % (self.nickname)
 #

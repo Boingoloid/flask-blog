@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# from models import User
 from markdown.extensions import tables
 
 from app import app
@@ -117,7 +118,7 @@ def index():
     word = markdown2.markdown(contents,extras=["wiki-tables"])
     blogEnriched = Markup(word)
 
-    return render_template("index.html", title='Home', user=user, posts=posts, blog=blog, blogEnriched=blogEnriched)
+    return render_template("index.html", title='Home', blog=blog, blogEnriched=blogEnriched)
 
 # import datetime
 # @app.route('/add')
